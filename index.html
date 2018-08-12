@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jake Codes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href=“https://fonts.googleapis.com/icon?family=Material+Icons” rel=“stylesheet”>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
@@ -17,54 +18,199 @@
 <body>
 
     <!-- Heading & Scrollspy navigation section-->
-    <div class="container">
-        <div class="row">
-            <div class="col s8">
-                <h1>#!Jake Codes</h1>
-            </div>
-            <div class="col s4">
-                <li>
-                    <a href="#bio" class="section scrollspy">About Me!</a>
-                </li>
-                <li>
-                    <a href="#projects" class="section scrollspy">My Projects!</a>
-                </li>
-                <li>
-                    <a href="#info" class="section scrollspy">Contact Me!</a>
-                </li>
+    <nav>
+        <div class="nav-wrapper blue darken-4">
+            <div class="container">
+                <a href="#" class="brand-logo hide-on-small-only">
+                    #!/Jake/Codes
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="navside right hide-on-med-and-down">
+                    <li>
+                        <a href="#bio" class="section scrollspy">About Me!</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="section scrollspy">My Projects!</a>
+                    </li>
+                    <li>
+                        <a href="#info" class="section scrollspy">Contact Me!</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
+
     <!-- parralax -->
-    <div class="parallax-container">
-        <div class="parralax">
-            <img src="/assets/images/baner-code..jpg" width="1050" height="500">
-        </div>
+    <!-- <div class="parallax-container center align-wrapper">
+            <div class="parallax">
+                <img src="assets/images/shipbottle.jpg">
+            </div>
+        </div> -->
+
+    <div class="container">
+        <img src="assets/images/baner-code..jpg" width="100%" alt="code" />
     </div>
 
     <!-- Biography -->
+    <section class="section white">
+        <div class="row container">
+            <h2> About Me</h2>
+            <p id="bio" class="center-align"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.</p>
+            <p class="center-align"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="center-align"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p class="center-align"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+    </section>
+
     <div class="container">
-        <h2> About Me!</h2>
-        <p id="bio"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <div class="row container main">
+            <h2 id="projects">My Projects</h2>
+
+            <div class="row col m6 s12">
+                    <div class="card-panel hoverable">
+                        <div class "card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/googleMin.png" height="60%" width="100%">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                <h4>Google-Minus (Band Search)</h4>
+                            </span>
+                            <h6 class="center-align">
+                                <a href="https://declanmorrison.github.io/Band-Info-Aggregator/">Play Live!</a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+    
+
+            <div class="row col m6 s12">
+                <div class="card-panel hoverable">
+                    <div class "card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/LOTR.png" height="50%" width="100%">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h4>Lord of the Rings Trivia!</h4>
+                        </span>
+                        <h6 class="center-align">
+                            <a href="https://spacetab.github.io/TriviaGame/">Play Live!</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row col m6 s12">
+                <div class="card-panel hoverable">
+                    <div class "card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/Screenshot from 2018-08-12 18-44-52.png" height="50%" width="100%">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h4>Giphy-API  GifTastic</h4>
+                        </span>
+                        <h6 class="center-align">
+                            <a href="https://spacetab.github.io/GifTastic/">Play Live!</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row col m6 s12">
+                <div class="card-panel hoverable">
+                    <div class "card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/trainReservation.png" height="50%" width="100%">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h4>FireBase Train Reservation!</h4>
+                        </span>
+                        <h6 class="center-align">
+                            <a href="https://spacetab.github.io/Train-Reservation/?">Play Live!</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row col m6 s12">
+                <div class="card-panel hoverable">
+                    <div class "card-image">
+                        <img class="activator" src="assets/images/CrystallCollector.png" height="45%" width="100%">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 center">
+                            <h4>Crystal Collector!</h4>
+                        </span>
+                        <h6 class="center-align">
+                            <a href="https://spacetab.github.io/unit-4-game/">Play Live!</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Parralax -->
+
+    <div class="parallax-container center align-wrapper">
+        <div class="parallax">
+            <img src="assets/images/shipbottle.jpg">
+        </div>
     </div>
 
 
+    <div class="section white z-depth-10">
+        <div class="row container main">
+            <h2 id="info"> Contact</h2>
+            <form class="col s12">
+                <div class="col m10 s12">
+                    <div class="input-field col s4">
+                        <i class="material-icons prefix"></i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">First Name</label>
+                    </div>
+
+                    <div class="input-field col s5">
+                        <i class="material-icons prefix"></i>
+                        <input id="telephone" type="tel" class="validate">
+                        <label for="telephone">Telephone</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="input-field col m6">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                        <span class="helper-text" data-error="Invalid Address" data-success="right">SeamoreButts@hotmail.com</span>
+                    </div>
+                </div>
+            </form>
+            <button class=" btn btn-large #d84315 dark-3 z-depth-5" type="submit" value="submit" name="action">Submit</button>
+            <button class="btn btn-large #d84315 dark-3 z-depth-5" type="reset" value="reset" name="action">Reset-Form</button>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="col m12 center copy">
+                    © 2018 Copyright
+                </div>
+            </div>
+        </div>
 
 
 
 
-    <!-- CDN(s) -->
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <!-- Materialize -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <!-- JS File Link -->
-    <script src="assets/js/app.js"></script>
+        <!-- CDN(s) -->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <!-- Materialize -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <!-- JS File Link -->
+        <script src="assets/js/app.js"></script>
 </body>
 
 </html>

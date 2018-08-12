@@ -1,8 +1,9 @@
 $(() => {
 
+       
         //initiating scrollSpy feature
         $('.scrollspy').scrollSpy();
-        $('.parralax').parralax();
+        $('.parallax').parallax();
 
 
 
