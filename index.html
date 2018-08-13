@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jake Codes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href=“https://fonts.googleapis.com/icon?family=Material+Icons” rel=“stylesheet”>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
@@ -19,7 +21,7 @@
 
     <!-- Heading & Scrollspy navigation section-->
     <nav>
-        <div class="nav-wrapper blue darken-4">
+        <div class="nav-wrapper">
             <div class="container">
                 <a href="#" class="brand-logo hide-on-small-only">
                     #!/Jake/Codes
@@ -42,22 +44,75 @@
         </div>
     </nav>
 
-    <!-- parralax -->
-    <!-- <div class="parallax-container center align-wrapper">
-            <div class="parallax">
-                <img src="assets/images/shipbottle.jpg">
-            </div>
-        </div> -->
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="assets/images/baner-code..jpg">
+                </div>
+                <a href="#user">
+                    <img class="circle responsive-img" src="assets/images/">
+                </a>
 
-    <div class="container">
-        <img src="assets/images/baner-code..jpg" width="100%" alt="code" />
-    </div>
+                <a href="#name">
+                    <span class=" black-text name"> Jake Plaisted </span>
+                </a>
+                <a href="#email">
+                    <span class="black-text email">93Plaistj@protonmail.ch</span>
+                </a>
+
+                <a href="#bio">
+
+                </a>
+                <a href="#projects">
+
+                </a>
+            </div>
+        </li>
+        <li>
+            <a href="#bio">
+                <i class="small material-icons">accessibility</i>
+                About Me
+            </a>
+
+            <a href="#projects">
+                <i class="small material-icons">code</i>
+                My Projects
+            </a>
+
+            <a href="#info">
+                <i class="small material-icons">contact_mail</i>
+                Contact
+            </a>
+
+            <a href="https://github.com/spaceTab" target="_blank">
+                <i class="small material-icons">android</i>
+                GitHub
+            </a>
+        </li>
+    </ul>
+
+
+
+
+   
+        <img src="assets/images/ytCode.png" width="100%" height="500px" alt="code" />
+
+
+    <!-- <div class="parallax-container center align-wrapper">
+        <div class="parallax">
+            <img src="assets/images/shipbottle.jpg">
+        </div>
+    </div>  -->
 
     <!-- Biography -->
     <section class="section white">
         <div class="row container">
             <h2> About Me</h2>
-            <p id="bio" class="center-align"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            <div class="row">
+                <img src="assets/images/" data-aos="flip-down" alt="Jake" class="circle responsive-img z-depth-5">
+            </div>
+            <p id="bio" class="center-align hoverable"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua.</p>
             <p class="center-align"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <p class="center-align"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
@@ -65,33 +120,92 @@
         </div>
     </section>
 
+
+    
+    <div class="carousel">
+        <h2 class="center-align"> Technologies!</h2>
+        <a class="carousel-item" href="#one!">
+            <img src="assets/images/html.jpg">
+            <h4 class="center-align">HTML5</h4>
+        </a>
+        <a class="carousel-item" href="#two!">
+            <img src="assets/images/CSS3.png">
+            <h4 class="center-align">CSS3</h4>
+        </a>
+        <a class="carousel-item" href="#three!">
+            <img src="assets/images/materialize.png">
+            <h4 class="center-align">Materialize</h4>
+        </a>
+        <a class="carousel-item" href="#four!">
+            <img src="assets/images/bootstrap.jpeg">
+            <h4 class="center-align">BootStrap</h4>
+        </a>
+        <a class="carousel-item" href="#five!">
+            <img src="assets/images/JS.jpg">
+            <h4 class="center-align">JavaScript</h4>
+        </a>
+        <a class="carousel-item" href="#six!">
+            <img src="assets/images/jQuery.jpeg">
+            <h4 class="center-align">jQuery</h4>
+        </a>
+        <a class="carousel-item" href="#seven!">
+            <img src="assets/images/firebase.jpg">
+            <h4 class="center-align">FireBase</h4>
+        </a>
+        <a class="carousel-item" href="#eight!">
+            <img src="assets/images/cpp.png">
+            <h4 class="center-align">C++</h4>
+        </a>
+        <a class="carousel-item" href="#nine!">
+            <img src="assets/images/linuxTux.jpg">
+            <h4 class="center-align">GNU/Linux</h4>
+        </a>
+        <a class="carousel-item" href="#ten">
+            <img src="assets/images/github.svg">
+            <h4 class="center-align">Git</h4>
+        </a>
+        <a class="carousel-item" href="#eleven">
+            <img src="assets/images/CMD.png">
+            <h4 class="center-align">Shell</h4>
+        </a>
+
+    </div>
+
+    <div class="parallax-container center align-wrapper">
+        <div class="parallax">
+            <img src="assets/images/JScode.png">
+        </div>
+    </div>
+
     <div class="container">
         <div class="row container main">
-            <h2 id="projects">My Projects</h2>
+            <h2 id="projects" class="center-align">My Projects</h2>
+
 
             <div class="row col m6 s12">
-                    <div class="card-panel hoverable">
-                        <div class "card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/images/googleMin.png" height="60%" width="100%">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">
-                                <h4>Google-Minus (Band Search)</h4>
-                            </span>
-                            <h6 class="center-align">
-                                <a href="https://declanmorrison.github.io/Band-Info-Aggregator/">Play Live!</a>
-                            </h6>
-                        </div>
+                <div class="card-panel hoverable">
+                    <div class "card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/googleMin.png" height="60%" width="100%">
+                    </div>
+                    <div class="card-content ">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h4>Google-Minus (Band Search)</h4>
+                        </span>
+                        <h6 class="center-align">
+                            <a href="https://declanmorrison.github.io/Band-Info-Aggregator/">Play Live!</a>
+                        </h6>
                     </div>
                 </div>
-    
+            </div>
+
+
 
             <div class="row col m6 s12">
                 <div class="card-panel hoverable">
                     <div class "card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/LOTR.png" height="50%" width="100%">
                     </div>
-                    <div class="card-content">
+                    <div class="card-content large">
                         <span class="card-title activator grey-text text-darken-4">
                             <h4>Lord of the Rings Trivia!</h4>
                         </span>
@@ -102,6 +216,7 @@
                 </div>
             </div>
 
+
             <div class="row col m6 s12">
                 <div class="card-panel hoverable">
                     <div class "card-image waves-effect waves-block waves-light">
@@ -109,7 +224,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">
-                            <h4>Giphy-API  GifTastic</h4>
+                            <h4>Giphy-API GifTastic</h4>
                         </span>
                         <h6 class="center-align">
                             <a href="https://spacetab.github.io/GifTastic/">Play Live!</a>
@@ -151,49 +266,67 @@
                 </div>
             </div>
 
+            <div class="row col m6 s12">
+                <div class="card-panel hoverable">
+                    <div class "card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/psychic.png" height="50%" width="100%">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h4 class="center-align">Psychic JS</h4>
+                        </span>
+                        <h6 class="center-align">
+                            <a href="https://spacetab.github.io/psychic-game/">Play Live!</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
     </div>
 
     <!-- Parralax -->
 
     <div class="parallax-container center align-wrapper">
         <div class="parallax">
-            <img src="assets/images/shipbottle.jpg">
+            <img src="assets/images/retryCode.png">
         </div>
     </div>
 
 
     <div class="section white z-depth-10">
-        <div class="row container main">
+        <div class="row container main center-align">
             <h2 id="info"> Contact</h2>
             <form class="col s12">
                 <div class="col m10 s12">
-                    <div class="input-field col s4">
+                    <div class="input-field col s12">
                         <i class="material-icons prefix"></i>
                         <input id="icon_prefix" type="text" class="validate">
                         <label for="icon_prefix">First Name</label>
                     </div>
 
-                    <div class="input-field col s5">
+                    <div class="input-field col s12">
                         <i class="material-icons prefix"></i>
                         <input id="telephone" type="tel" class="validate">
                         <label for="telephone">Telephone</label>
                     </div>
+                
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="Invalid Address" data-success="right">SeamoreButts@hotmail.com</span>
                 </div>
-                <div class="container">
-                    <div class="input-field col m6">
-                        <input id="email" type="email" class="validate">
-                        <label for="email">Email</label>
-                        <span class="helper-text" data-error="Invalid Address" data-success="right">SeamoreButts@hotmail.com</span>
-                    </div>
-                </div>
+            </div>
             </form>
             <button class=" btn btn-large #d84315 dark-3 z-depth-5" type="submit" value="submit" name="action">Submit</button>
             <button class="btn btn-large #d84315 dark-3 z-depth-5" type="reset" value="reset" name="action">Reset-Form</button>
         </div>
+
+
         <div id="footer">
             <div class="container">
-                <div class="col m12 center copy">
+                <div class="col m12 center copy green-darken-2">
                     © 2018 Copyright
                 </div>
             </div>

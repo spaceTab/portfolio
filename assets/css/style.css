@@ -1,0 +1,24 @@
+.card-panel{
+    height: 375px; /* Your height here */
+    overflow: hidden;
+    background: #CDDBC2;
+    color: #2E4347;
+}
+.activator {
+    height: 175px;
+}
+
+p {
+    font-size: 25px;
+}
+
+nav {
+    background-color: #9D9E94;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+}
+.section {
+    font-size: 18px;
+    font-family: monospace;
+}
+
