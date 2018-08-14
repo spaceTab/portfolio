@@ -8,6 +8,7 @@
     <title>Jake Codes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
@@ -23,7 +24,7 @@
     <nav>
         <div class="nav-wrapper">
             <div class="container">
-                <a href="#" class="brand-logo hide-on-small-only">
+                <a href="#" class="brand-logo hide-on-small-only" id="front-tag">
                     #!/Jake/Codes
                 </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger">
@@ -51,7 +52,7 @@
                     <img src="assets/images/baner-code..jpg">
                 </div>
                 <a href="#user">
-                    <img class="circle responsive-img" src="assets/images/">
+                    <img class="circle responsive-img" src="assets/images/moi2.jpg">
                 </a>
 
                 <a href="#name">
@@ -95,8 +96,8 @@
 
 
 
-   
-        <img src="assets/images/ytCode.png" width="100%" height="500px" alt="code" />
+
+    <img src="assets/images/baner-code..jpg" width="100%" height="500px" alt="code" />
 
 
     <!-- <div class="parallax-container center align-wrapper">
@@ -106,67 +107,72 @@
     </div>  -->
 
     <!-- Biography -->
-    <section class="section white">
+    <section class="section white" id="about-cont">
         <div class="row container">
-            <h2> About Me</h2>
-            <div class="row">
-                <img src="assets/images/" data-aos="flip-down" alt="Jake" class="circle responsive-img z-depth-5">
+            <h2 class="about"> About Me</h2>
+            <div class="row" id="bio">
+                <div data-aos="flip-left" class="center-align">
+                    <div class="row" id="bio-para">
+                        <img src="assets/images/moi2.jpg" data-aos="flip-down" alt="Jake" class="circle responsive-img z-depth-5 hoverable" id="avatar">
+
+                        <p class="col s8" id="bio-para"> My name is Jake Plaisted. I'm currently attending the UNH Coding Bootcamp, studying full-stack development.
+                            Trying to persue my passions for technology. I have always had a passion for computers ever since
+                            recieving my first computer, a hammy-downed
+                            <i>Macintosh Classic 2</i> as a young kid. I have been playing with computers ever since.</p>
+                        
+                    </div>
+                </div>
             </div>
-            <p id="bio" class="center-align hoverable"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.</p>
-            <p class="center-align"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p class="center-align"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-            <p class="center-align"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
     </section>
 
 
-    
-    <div class="carousel">
-        <h2 class="center-align"> Technologies!</h2>
+
+    <div class="carousel" data-aos="fade-left">
+        <h2 class="center-align" id="c-Tag"> Technologies!</h2>
         <a class="carousel-item" href="#one!">
             <img src="assets/images/html.jpg">
-            <h4 class="center-align">HTML5</h4>
+            <h4 class="center-align" id="card-text" data-aos="fade-down">HTML5</h4>
         </a>
         <a class="carousel-item" href="#two!">
             <img src="assets/images/CSS3.png">
-            <h4 class="center-align">CSS3</h4>
+            <h4 class="center-align" id="card-text" data-aos="fade-down">CSS3</h4>
         </a>
         <a class="carousel-item" href="#three!">
             <img src="assets/images/materialize.png">
-            <h4 class="center-align">Materialize</h4>
+            <h4 class="center-align" id="card-text" data-aos="fade-down">Materialize</h4>
         </a>
         <a class="carousel-item" href="#four!">
             <img src="assets/images/bootstrap.jpeg">
-            <h4 class="center-align">BootStrap</h4>
+            <h4 class="center-align" data-aos="fade-down">BootStrap</h4>
         </a>
         <a class="carousel-item" href="#five!">
             <img src="assets/images/JS.jpg">
-            <h4 class="center-align">JavaScript</h4>
+            <h4 class="center-align" data-aos="fade-down">JavaScript</h4>
         </a>
         <a class="carousel-item" href="#six!">
             <img src="assets/images/jQuery.jpeg">
-            <h4 class="center-align">jQuery</h4>
+            <h4 class="center-align" data-aos="fade-down">jQuery</h4>
         </a>
         <a class="carousel-item" href="#seven!">
             <img src="assets/images/firebase.jpg">
-            <h4 class="center-align">FireBase</h4>
+            <h4 class="center-align" data-aos="fade-down">FireBase</h4>
         </a>
         <a class="carousel-item" href="#eight!">
             <img src="assets/images/cpp.png">
-            <h4 class="center-align">C++</h4>
+            <h4 class="center-align" data-aos="fade-down">C++</h4>
         </a>
         <a class="carousel-item" href="#nine!">
             <img src="assets/images/linuxTux.jpg">
-            <h4 class="center-align">GNU/Linux</h4>
+            <h4 class="center-align" data-aos="fade-down">GNU/Linux</h4>
         </a>
         <a class="carousel-item" href="#ten">
             <img src="assets/images/github.svg">
-            <h4 class="center-align">Git</h4>
+            <h4 class="center-align" data-aos="fade-down">Git</h4>
         </a>
         <a class="carousel-item" href="#eleven">
             <img src="assets/images/CMD.png">
-            <h4 class="center-align">Shell</h4>
+            <h4 class="center-align" data-aos="fade-down">Shell</h4>
         </a>
 
     </div>
@@ -179,11 +185,11 @@
 
     <div class="container">
         <div class="row container main">
-            <h2 id="projects" class="center-align">My Projects</h2>
+            <h2 id="projects" class="center-align" id="card-tag">My Projects</h2>
 
 
             <div class="row col m6 s12">
-                <div class="card-panel hoverable">
+                <div class="card-panel hoverable" data-aos="fade-left">
                     <div class "card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/googleMin.png" height="60%" width="100%">
                     </div>
@@ -201,7 +207,7 @@
 
 
             <div class="row col m6 s12">
-                <div class="card-panel hoverable">
+                <div class="card-panel hoverable" data-aos="fade-right">
                     <div class "card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/LOTR.png" height="50%" width="100%">
                     </div>
@@ -218,7 +224,7 @@
 
 
             <div class="row col m6 s12">
-                <div class="card-panel hoverable">
+                <div class="card-panel hoverable" data-aos="fade-up">
                     <div class "card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/Screenshot from 2018-08-12 18-44-52.png" height="50%" width="100%">
                     </div>
@@ -235,7 +241,7 @@
 
 
             <div class="row col m6 s12">
-                <div class="card-panel hoverable">
+                <div class="card-panel hoverable" data-aos="fade-down">
                     <div class "card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/trainReservation.png" height="50%" width="100%">
                     </div>
@@ -251,7 +257,7 @@
             </div>
 
             <div class="row col m6 s12">
-                <div class="card-panel hoverable">
+                <div class="card-panel hoverable" data-aos="fade-up-left">
                     <div class "card-image">
                         <img class="activator" src="assets/images/CrystallCollector.png" height="45%" width="100%">
                     </div>
@@ -267,7 +273,7 @@
             </div>
 
             <div class="row col m6 s12">
-                <div class="card-panel hoverable">
+                <div class="card-panel hoverable" data-aos="fade-up-right">
                     <div class "card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/psychic.png" height="50%" width="100%">
                     </div>
@@ -311,13 +317,15 @@
                         <input id="telephone" type="tel" class="validate">
                         <label for="telephone">Telephone</label>
                     </div>
-                
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                    <span class="helper-text" data-error="Invalid Address" data-success="right">SeamoreButts@hotmail.com</span>
+
+                    <div class="container">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                            <span class="helper-text" data-error="Invalid Address" data-success="right">SeamoreButts@hotmail.com</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
             </form>
             <button class=" btn btn-large #d84315 dark-3 z-depth-5" type="submit" value="submit" name="action">Submit</button>
             <button class="btn btn-large #d84315 dark-3 z-depth-5" type="reset" value="reset" name="action">Reset-Form</button>
@@ -337,6 +345,8 @@
 
 
         <!-- CDN(s) -->
+        <!-- Animation on Scroll -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
