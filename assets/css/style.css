@@ -9,7 +9,7 @@ body {
 .card-panel{
     height: 375px; /* Your height here */
     overflow: hidden;
-    background: rgb(233, 227, 227);
+    background: rgb(227, 231, 233);
     color: #2E4347;
     opacity: 1;
 }
@@ -20,7 +20,7 @@ body {
 
 
 nav {
-    background-color: rgb(164, 217, 226);
+    background-color: rgb(76, 160, 209);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
 }
@@ -30,21 +30,21 @@ nav {
 }
 
 #avatar {
-    max-height: 200px;
-    margin-left: 20px;
-    margin-top: 10px;
-    float: left;
+    max-height: 150px;
+    margin-right: 1050px;
+    border-radius: 25%;
+    float: right;
   
 }
-p {
-    font-size: 25px;
-    float: left;
-    margin-top: 50px;
-    padding-top: 20px;
-    position: relative;
+.typed {
+    font-size: 30px;
+    /* line-height: 50px; */
+    color: #3ffa3f;
+    /* padding-top: 20px; */
     font-family: 'Lekton', sans-serif;
-}
-button {
+    margin-left: 30px !important;
+   
+    /* float: left; */
     position: relative;
 }
 
@@ -54,6 +54,7 @@ button {
 }
 .about {
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 70px;
 }
 
 #c-Tag {
@@ -63,16 +64,61 @@ button {
 }
 
 /* having issues changing this */
-#card-tag {
+.card-tag {
     font-family: 'Roboto Mono', monospace !important;
     font-size: 55px !important;
 }
 #bio-para{
    background-color: #404552 !important;
    color: #ffff;
-   border-radius: 15px 50px 30px;
+   border-radius:  0px 0px 35px 15px;
+   height: 385px;
+   padding-left: 5px;
+   box-shadow: 15px 10px 5px #afadad;
+}
+#projects {
+    font-family: lobster;
+}
+.card-text{
+    color: #000000;
 }
 
 #about-cont{
     background: #2E4347;
+
+}
+.topbar{
+    background-color: grey;
+    border-radius: 5px 5px 0px 0px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.cursor {
+    
+    padding-top: 20px;
+    font-size: 28px;
+
+}
+
+.exit {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 3px;
+    float: right;
+    background-color: red;
+}
+.mini {
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    
+   
+    float: right;
+    background-color: rgb(78, 230, 78);
 }

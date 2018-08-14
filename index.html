@@ -25,7 +25,7 @@
         <div class="nav-wrapper">
             <div class="container">
                 <a href="#" class="brand-logo hide-on-small-only" id="front-tag">
-                    #!/Jake/Codes
+                    #!/Jake/Plaisted
                 </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                     <i class="material-icons">menu</i>
@@ -108,19 +108,28 @@
 
     <!-- Biography -->
     <section class="section white" id="about-cont">
+        <img src="assets/images/moi2.jpg" data-aos="flip-down" alt="Jake" class="responsive-img z-depth-5 hoverable" id="avatar">
         <div class="row container">
-            <h2 class="about"> About Me</h2>
-            <div class="row" id="bio">
-                <div data-aos="flip-left" class="center-align">
-                    <div class="row" id="bio-para">
-                        <img src="assets/images/moi2.jpg" data-aos="flip-down" alt="Jake" class="circle responsive-img z-depth-5 hoverable" id="avatar">
 
-                        <p class="col s8" id="bio-para"> My name is Jake Plaisted. I'm currently attending the UNH Coding Bootcamp, studying full-stack development.
+            <h2 class="about"> About Me</h2>
+
+            <div class="row" id="bio">
+                <div data-aos="flip-left">
+                    <div class="row" id="bio-para">
+                        <div class="topbar">tilix: zsh
+                            <div class="exit"></div>
+                            <div class="mini"></div>
+                        </div>
+                        <span class="cursor"> ~/code/web_dev/ $</span>
+                        <span class="typed"></span>
+
+                        <!-- <p class="col s8" id="bio-para"> My name is Jake Plaisted. I'm currently attending the UNH Coding Bootcamp, studying full-stack development.
                             Trying to persue my passions for technology. I have always had a passion for computers ever since
                             recieving my first computer, a hammy-downed
-                            <i>Macintosh Classic 2</i> as a young kid. I have been playing with computers ever since.</p>
-                        
+                            <i>Macintosh Classic 2</i> as a young kid. I have been playing with computers ever since.</p>  -->
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -129,50 +138,50 @@
 
 
     <div class="carousel" data-aos="fade-left">
-        <h2 class="center-align" id="c-Tag"> Technologies!</h2>
+        <h2 class="card-tag center-align"> known technologies</h2>
         <a class="carousel-item" href="#one!">
             <img src="assets/images/html.jpg">
-            <h4 class="center-align" id="card-text" data-aos="fade-down">HTML5</h4>
+            <h4 class="card-text center-align"  data-aos="fade-down">HTML5</h4>
         </a>
         <a class="carousel-item" href="#two!">
             <img src="assets/images/CSS3.png">
-            <h4 class="center-align" id="card-text" data-aos="fade-down">CSS3</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">CSS3</h4>
         </a>
         <a class="carousel-item" href="#three!">
             <img src="assets/images/materialize.png">
-            <h4 class="center-align" id="card-text" data-aos="fade-down">Materialize</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">Materialize</h4>
         </a>
         <a class="carousel-item" href="#four!">
             <img src="assets/images/bootstrap.jpeg">
-            <h4 class="center-align" data-aos="fade-down">BootStrap</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">BootStrap</h4>
         </a>
         <a class="carousel-item" href="#five!">
             <img src="assets/images/JS.jpg">
-            <h4 class="center-align" data-aos="fade-down">JavaScript</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">JavaScript</h4>
         </a>
         <a class="carousel-item" href="#six!">
             <img src="assets/images/jQuery.jpeg">
-            <h4 class="center-align" data-aos="fade-down">jQuery</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">jQuery</h4>
         </a>
         <a class="carousel-item" href="#seven!">
             <img src="assets/images/firebase.jpg">
-            <h4 class="center-align" data-aos="fade-down">FireBase</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">FireBase</h4>
         </a>
         <a class="carousel-item" href="#eight!">
             <img src="assets/images/cpp.png">
-            <h4 class="center-align" data-aos="fade-down">C++</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">C++</h4>
         </a>
         <a class="carousel-item" href="#nine!">
             <img src="assets/images/linuxTux.jpg">
-            <h4 class="center-align" data-aos="fade-down">GNU/Linux</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">GNU/Linux</h4>
         </a>
         <a class="carousel-item" href="#ten">
             <img src="assets/images/github.svg">
-            <h4 class="center-align" data-aos="fade-down">Git</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">Git</h4>
         </a>
         <a class="carousel-item" href="#eleven">
             <img src="assets/images/CMD.png">
-            <h4 class="center-align" data-aos="fade-down">Shell</h4>
+            <h4 class="card-text center-align" data-aos="fade-down">Shell</h4>
         </a>
 
     </div>
@@ -301,10 +310,10 @@
     </div>
 
 
-    <div class="section white z-depth-10">
+    <div class="section z-depth-10">
         <div class="row container main center-align">
-            <h2 id="info"> Contact</h2>
-            <form class="col s12">
+            <h2 id="info"> Contact Infomation</h2>
+            <!-- <form class="col s12">
                 <div class="col m10 s12">
                     <div class="input-field col s12">
                         <i class="material-icons prefix"></i>
@@ -328,7 +337,7 @@
                 </div>
             </form>
             <button class=" btn btn-large #d84315 dark-3 z-depth-5" type="submit" value="submit" name="action">Submit</button>
-            <button class="btn btn-large #d84315 dark-3 z-depth-5" type="reset" value="reset" name="action">Reset-Form</button>
+            <button class="btn btn-large #d84315 dark-3 z-depth-5" type="reset" value="reset" name="action">Reset-Form</button> -->
         </div>
 
 
@@ -347,6 +356,8 @@
         <!-- CDN(s) -->
         <!-- Animation on Scroll -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- typed.js-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
