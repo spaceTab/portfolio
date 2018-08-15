@@ -19,8 +19,6 @@ body {
     height: 175px;
 }
 
-
-
 nav {
     background-color: rgb(76, 160, 209);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -40,13 +38,9 @@ nav {
 }
 .typed {
     font-size: 30px;
-    /* line-height: 50px; */
     color: #3ffa3f;
-    /* padding-top: 20px; */
     font-family: 'Lekton', sans-serif;
     margin-left: 30px !important;
-   
-    /* float: left; */
     position: relative;
 }
 
@@ -72,16 +66,24 @@ nav {
 /* having issues changing this */
 .card-tag {
     font-family: 'Roboto Mono', monospace !important;
-    font-size: 55px !important;
+    font-size: 45px !important;
     color: #ffffff;
+
+    flex-wrap: wrap;
+}
+.carousel-item {
+    margin-top: 40px;
 }
 #bio-para{
-   background-color: #404552 !important;
+   background-color: #404552;
    color: #ffff;
    border-radius:  0px 0px 35px 15px;
+   /* Wanted set height, but can't get it to work on mobile, texts overflow. */
+   /* height: 610px; */
    height: 385px;
    padding-left: 5px;
    box-shadow: 15px 10px 5px #afadad;
+   padding-bottom: 5px;
 }
 #projects {
     font-family: lobster;
@@ -126,8 +128,36 @@ nav {
     margin-top: 3px;
     background-color: #bbb;
     border-radius: 50%;
-    
-   
     float: right;
     background-color: rgb(78, 230, 78);
+}
+#info, .contactInfo {
+    color: #ffffff;
+    font-size: 72px;
+}
+.contactInfo, .contactLink {
+    font-size: 26px;
+}
+
+#footer{
+    color: #afadad;
+    font-size: 22px;
+}
+
+@media (max-width: 600px){
+    #body-para{
+        max-height: 500px !important;
+    }
+    .typed{
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 375px){
+    #body-para{
+        max-height: 950px;
+    }
+    .typed{
+        font-size: 20px;
+    }
 }
