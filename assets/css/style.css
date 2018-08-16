@@ -96,6 +96,7 @@ nav {
 
 #about-cont{
     background: #2E4347;
+    margin: 50px 25px 50px 25px;
 
 }
 .topbar{
@@ -138,6 +139,7 @@ nav {
 }
 .contactInfo, .contactLink {
     font-size: 26px;
+    color: rgb(20, 38, 66)
 }
 
 #footer{
@@ -147,6 +149,10 @@ nav {
 
 .parallax:nth-child(1){
     height: 120%;
+}
+#
+#lastCont {
+    margin: 150px 150px;
 }
 
 @media (max-width: 600px){
