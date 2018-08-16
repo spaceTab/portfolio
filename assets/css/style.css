@@ -33,9 +33,12 @@ nav {
     margin-right: 1050px;
     border-radius: 25%;
     position: relative;
-    float: right;
+    /* float: right; */
+    margin-bottom: 15px;
   
 }
+
+
 .typed {
     font-size: 30px;
     color: #3ffa3f;
@@ -50,10 +53,12 @@ nav {
 }
 .top-par{
     margin-bottom: 150px;
+    height: 1100px;
+  
 }
 .about {
     font-family: 'Dancing Script', cursive;
-    margin-bottom: 70px;
+    margin-bottom: 15px;
 }
 
 #c-Tag {
@@ -79,8 +84,8 @@ nav {
    color: #ffff;
    border-radius:  0px 0px 35px 15px;
    /* Wanted set height, but can't get it to work on mobile, texts overflow. */
-   /* height: 610px; */
-   height: 385px;
+   
+   height: 385px; 
    padding-left: 5px;
    box-shadow: 15px 10px 5px #afadad;
    padding-bottom: 5px;
@@ -133,6 +138,9 @@ nav {
     float: right;
     background-color: rgb(78, 230, 78);
 }
+#car-section {
+    margin: 120px 50px 150px 50px;
+}
 #info, .contactInfo {
     color: #000000;
     font-size: 72px;
@@ -155,9 +163,21 @@ nav {
     margin: 150px 150px;
 }
 
+/* I had some real issues trying to suss out a way to get the
+    'Terminal' to grow when screens got smaller, For some reason
+    I couldn't get the height to adjust, but smaller text seems
+    to to work, any feedback on where I went wrong would be great
+    thanks! 
+*/
+@media (max-width: 800px){
+    .typed {
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 600px){
     #body-para{
-        max-height: 500px !important;
+        height: 1500px !important;
     }
     .typed{
         font-size: 22px;
@@ -166,7 +186,7 @@ nav {
 
 @media(max-width: 375px){
     #body-para{
-        max-height: 950px;
+        height: 1500px;
     }
     .typed{
         font-size: 20px;
