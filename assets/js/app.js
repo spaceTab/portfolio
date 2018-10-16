@@ -1,4 +1,4 @@
-$(() => {
+$(function(){
 
        // import Typed from 'typed.js';
 
@@ -25,6 +25,7 @@ $(() => {
                 mirror: false
          });
 
+         $('.modal').modal();
 
         /*End of File*/
 });
